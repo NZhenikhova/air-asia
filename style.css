@@ -35,6 +35,9 @@ a{
     text-decoration: none;
 }
 
+p{
+    color:#060606;
+}
 .wrapper{
     height: 100%;
     width: 100%;
@@ -85,7 +88,7 @@ border-color: #d61f18;
    margin-bottom: 73px;
 }
 
-.logo, .menu, .contacts, {
+.logo, .menu, .contacts{
     position: absolute;
 } 
 
@@ -217,6 +220,15 @@ border-color: #d61f18;
     font-size: 16px;
 }
 
+.offers__block-duration, .offers__block-meal{
+    display: inline-block;
+}
+
+.offers__block-duration{
+    margin-right: 28px;
+}
+
+
 
 .offers__info{
     font-size: 16px;
@@ -247,7 +259,7 @@ border-color: #d61f18;
 }
 
 
-.news_title{
+.news__title{
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 51px;
@@ -303,7 +315,6 @@ border-color: #d61f18;
 
 .paginator{
     text-align: center;
-    display: inline-block;
     vertical-align: middle;
     font-size: 16px;
 }
@@ -348,42 +359,61 @@ border-color: #d61f18;
     border-radius: 50%
 }
 
-
-.about:before{
-    content: "";
-    display: inline-block;
-    vertical-align: top;
-    width: 490px;
-    height: 505px;
-    background: url("img/gates.png") center center / cover no-repeat;
+.about{
+    margin-top: 150px;
+    margin-bottom: 38px;
 }
 
+.about__img-content{
+    object-fit: cover;
+    width: 785px;
+    height: 455px;
+}
 
-
-
-.about_title{
+.about__title{
     font-size: 36px;
     font-weight: bold;
-    margin-left: 81px;
-    margin-bottom: 336px;
+    color:#000000
 }
 
-.about_content{
+.about__image{
+    display: inline-block
+}
+
+.about__text{
+    position: absolute;
+    color: #060606;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 66px 202px 66px 81px;
+}
+
+.about__desc{
+    color:#060606;
+}
+
+
+
+.about__content{
     display: inline-block;
+    border-radius: 5px;
     vertical-align: top;
-    padding: 81px 70px;
-    width: 20px;
+    width: 785px;
     height: 455px;
-    object-fit: cover;
     margin-left: -150px;
+    margin-top: 120px;
+    position: relative;
+    color: #060606;
 }
-
-
 
 .footer{
     position: relative;
     min-height: 146px;
     margin-bottom: 73px;
+    border-top: 1px solid #FFFFFF;
+    ;
 }
 
 
